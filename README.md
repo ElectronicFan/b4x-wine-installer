@@ -201,7 +201,6 @@ Reinstall critical components:
 
 ### B4A won't start
 Legacy Intel GPU and lacking Vulkan 1.3 support:
-
 ```WINEPREFIX=~/.wine_b4x winetricks d3d9=builtin d3d11=builtin dxgi=builtin```
 
 ### Font rendering issues
