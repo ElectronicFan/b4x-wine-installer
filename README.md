@@ -196,7 +196,7 @@ ls ~/.local/share/applications/ | grep b4a && echo "⚠️ Launcher still exists
 ## 🔍 Troubleshooting
 
 ### B4A won't start
-Reinstall critical components:
+Reinstall critical components (Vulkan 1.3+ only):
 ```WINEPREFIX=~/.wine_b4x winetricks -q dotnet452 vcrun2010 dxvk renderer=gdi```
 
 ### B4A won't start
